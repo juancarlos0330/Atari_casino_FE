@@ -1,0 +1,291 @@
+.mypage {
+  display: flex;
+  flex-direction: column;
+  max-width: 1420px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.myaccount-info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.myinfo {
+  width: 100%;
+}
+
+.mypay {
+  flex: 1;
+}
+
+.card-block {
+  display: inline-block;
+  width: calc(100% / 3 - 20px);
+  margin: 0px 10px;
+  margin-bottom: 50px;
+}
+
+.card-block:hover {
+  border-radius: 15px;
+  box-shadow: 0 0 20px 5px var(--hover_clr);
+  transform: scale(1.02);
+}
+
+.myinfo-title {
+  padding: 15px 0px;
+  font-size: 25px;
+  background-color: var(--block_clr);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.myinfo-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--win_blk_clr);
+  opacity: 0.8;
+  padding: 40px 60px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.myinfo-content-item {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myinfo-content-item span {
+  font-size: 20px;
+}
+
+.myinfo-content-btn {
+  background-color: var(--block_clr);
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid var(--block_clr);
+  cursor: pointer;
+}
+
+.myinfo-content-btn > img {
+  height: 18px;
+}
+
+.myinfo-content-btn:hover {
+  background-color: var(--white);
+  box-shadow: 0 0 2px 3px var(--block_clr);
+  color: var(--block_clr);
+}
+
+.deposit-total {
+  color: var(--block_clr);
+  font-weight: bold;
+}
+
+.deposit-input-block {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.deposit-input-block > span {
+  font-size: 12px;
+  height: 40px;
+  padding: 0px 5px;
+  margin: auto;
+  border-right: 1px solid var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.deposit-amount-input {
+  border: none;
+  background-color: transparent;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.deposit-amount-input:focus {
+  outline: none;
+}
+
+.mygame {
+  margin-top: 30px;
+  display: flex;
+  z-index: 5;
+  flex-direction: column;
+}
+
+.mygame-title {
+  font-size: 45px;
+  margin: 30px 0px 10px 0px;
+}
+
+.mygame-list {
+  margin-top: 50px;
+}
+
+.mygame-list-item {
+  overflow: hidden;
+  height: 220px;
+  display: inline-block;
+  width: calc(100% / 4 - 20px);
+  margin: 10px;
+  position: relative;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.mygame-list-image-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mygame-list-item:hover img {
+  transform: scale(1.05);
+}
+
+.mygame-list-item > img {
+  border-radius: 20px;
+  position: relative;
+}
+
+.mygame-list-item:hover .mygame-list-item-back {
+  height: 100%;
+}
+
+.mygame-list-item:hover .mygame-list-item-hover {
+  opacity: 1;
+}
+
+.mygame-list-item-back {
+  position: absolute;
+  background-color: var(--black);
+  top: 0;
+  width: 100%;
+  height: 0%;
+  border-radius: 15px;
+  opacity: 0.6;
+  transition: 0.4s all ease-in-out;
+}
+
+.mygame-list-item-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s all ease-in-out;
+}
+
+.mygame-list-item-title {
+  position: absolute;
+  margin-top: 10%;
+  width: 80%;
+  word-wrap: break-word;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--white);
+  line-height: 1;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px #eb452b, 3px 3px 0px #efa032, 3px 3px 0px #46b59b,
+    5px 5px 0px #017e7f, 5px 5px 0px #052939, 5px 5px 0px #c11a2b,
+    5px 5px 0px #c11a2b, 5px 5px 0px #c11a2b, 5px 5px 0px #c11a2b;
+}
+
+.mygame-list-item-btns {
+  position: absolute;
+  margin-top: 35%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mygame-list-item-btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--block_clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--block_clr);
+}
+
+.mygame-list-item-btn:hover {
+  border: 1px solid var(--block_clr);
+  background-color: var(--white);
+  box-shadow: 0 0 2px 3px var(--block_clr);
+}
+
+.mygame-list-item-btn > i {
+  font-size: 15px;
+}
+
+.mygame-list-item-btn:hover i {
+  color: var(--block_clr);
+  font-size: 22px;
+}
+
+/* Game submit btn css */
+.mygame-submit {
+  margin: 30px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mygame-submit-btn {
+  margin-right: 5%;
+  padding: 10px 50px;
+  background-color: var(--block_clr);
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid var(--block_clr);
+}
+
+.mygame-submit-btn:hover {
+  background-color: var(--hover_clr);
+  box-shadow: 0 0 2px 3px var(--white);
+}
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.react-confirm-alert-body {
+  background: var(--menu_backclr) !important;
+}
+
+.react-confirm-alert-button-group > button {
+  background-color: var(--block_clr) !important;
+  border: 1px solid var(--block_clr) !important;
+}
+
+.react-confirm-alert-button-group > button:hover {
+  background-color: var(--hover_clr) !important;
+  font-weight: bold !important;
+  box-shadow: 0 0 2px 2px var(--white) !important;
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 2000px) {
+  .rating {
+    margin-top: 9.1vw;
+  }
+
+  .rating-title {
+    font-size: 2vw;
+  }
+
+  .rating-content {
+    margin-top: 6.8vw;
+  }
+
+  .rating-content-sec-txt {
+    font-size: 0.7vw;
+  }
+
+  .rating-content-sec-btn {
+    margin-top: 2.3vw;
+    font-size: 0.65vw;
+    padding: 1.14vw 1.82vw;
+    border: 0.1vw solid var(--white);
+  }
+
+  .rating-content-sec-btn > i {
+    font-size: 0.7vw;
+    margin-left: 0.9vw;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .rating-review-item {
+    margin: 0px 0.5vw;
+    height: calc((((100vw - 300px) / 3) - 1vw) * 1.35);
+  }
+}

@@ -1,0 +1,16 @@
+.partner {
+  margin-top: 250px;
+  width: 100%;
+  max-width: 1900px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.partner-title {
+  font-size: 33px;
+}
+
+.partner-content {
+  margin-top: 50px;
+}

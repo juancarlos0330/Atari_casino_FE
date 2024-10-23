@@ -1,0 +1,147 @@
+.contact {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contact-title {
+  font-size: 42px;
+}
+
+.contact-content {
+  width: 700px;
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content-name-email {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-content-name {
+  margin-right: 20px;
+  flex: 1;
+}
+
+.contact-content-email {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.contact-content-item {
+  border-bottom: 1px solid var(--menu_list_clr);
+  width: 100%;
+  font-size: 15px;
+  color: var(--menu_list_clr);
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+
+.contact-content-item:empty:not(:focus):before {
+  content: attr(data-placeholder);
+  color: var(--menu_list_clr);
+  font-size: 15px;
+}
+
+.contact-content-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 150px;
+  position: relative;
+  background: linear-gradient(var(--backclr), var(--contact_back_clr));
+}
+
+.contact-content-subbtn {
+  font-size: 14px;
+  padding: 25px 40px;
+  border: 2px solid var(--white);
+  width: fit-content;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-content-subbtn:hover {
+  border-color: var(--menu_list_clr);
+  color: var(--menu_list_clr);
+}
+
+.contact-content-subbtn > i {
+  font-size: 14px;
+  margin-left: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-content-subbtn:hover i {
+  color: var(--menu_list_clr);
+}
+
+.contact-news-block {
+  width: 1050px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(187, 56, 58);
+  border-radius: 50px;
+  padding: 12px 0px;
+  transform: translate(0%, 50%);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-news-subbtn {
+  font-size: 14px;
+  padding: 25px 40px;
+  border: 2px solid rgb(3, 3, 3);
+  background-color: rgb(3, 3, 3);
+  width: fit-content;
+  border-radius: 50px;
+  justify-content: center;
+  margin-right: 15px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-news-subbtn:hover {
+  border-color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.contact-news-subbtn > i {
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.contact-news-subbtn:hover i {
+  color: var(--black);
+}
+
+.contact-news-title {
+  font-size: 33px;
+  margin: 0 60px;
+}
+
+.contact-news-email {
+  font-size: 15px;
+  outline: none;
+  flex: 1;
+}
+
+.contact-news-email:empty:not(:focus):before {
+  content: attr(data-placeholder);
+  color: #ccc;
+  font-size: 15px;
+}

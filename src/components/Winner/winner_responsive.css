@@ -1,0 +1,42 @@
+@media screen and (max-width: 2000px) {
+  .winner-contain {
+    margin-top: 13.7vw;
+  }
+  .winner-title {
+    font-size: 2vw;
+  }
+  .winner-content-block {
+    margin-top: 2.73vw;
+    margin-bottom: 2.27vw;
+    padding-right: 1.37vw;
+  }
+  .winner-content-block-item {
+    width: 15.9vw;
+    margin: 0px 0.45vw;
+  }
+  .winner-block-item-title {
+    font-size: 1.37vw;
+    padding: 1.14vw 0px;
+  }
+  .winner-block-item-content {
+    background-color: var(--win_blk_clr);
+    padding: 0.7vw 0.9vw;
+  }
+  .winner-block-content-item {
+    padding: 0.7vw 0px;
+  }
+  .winner-block-item-sec1 {
+    width: 3.65vw;
+    height: 3.65vw;
+    margin-right: 1.14vw;
+  }
+  .winner-block-sec2-1 {
+    font-size: 0.7vw;
+  }
+  .winner-block-sec2-2 {
+    font-size: 0.95vw;
+  }
+  .winner-block-sec2-3 {
+    font-size: 0.7vw;
+  }
+}

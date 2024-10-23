@@ -1,0 +1,78 @@
+@media screen and (max-width: 2000px) {
+  .variety-main {
+    margin-top: 13.7vw;
+  }
+  .variety-title1 {
+    font-size: 0.8vw;
+  }
+  .variety-title2 {
+    margin-top: 0.23vw;
+    font-size: 2.05vw;
+  }
+  .variety-content-block {
+    margin-top: 3.2vw;
+    margin: 0px 10vw;
+  }
+  .variety-content-block-item {
+    width: calc(100% / 6 - 1vw);
+    margin: 0.5vw;
+  }
+  .variety-btn-block {
+    margin-top: 3.2vw;
+  }
+  .variety-show-btn {
+    font-size: 1.4vw;
+    padding: 0.7vw 1.8vw;
+  }
+
+  /* dice images position */
+  .variety-backg-img1 {
+    left: 9.1vw;
+    bottom: 42.7vw;
+    /* display: none; */
+  }
+  .variety-backg-img1 > img {
+    width: 6.5vw;
+  }
+  .variety-backg-img2 {
+    left: 5.9vw;
+    bottom: 31.4vw;
+    /* display: none; */
+  }
+  .variety-backg-img2 > img {
+    width: 4.8vw;
+  }
+  .variety-backg-img3 {
+    right: 10vw;
+    bottom: 46.4vw;
+    /* display: none; */
+  }
+  .variety-backg-img3 > img {
+    width: 4.8vw;
+  }
+  .variety-backg-img4 {
+    right: 5.45vw;
+    bottom: 36.8vw;
+    /* display: none; */
+  }
+  .variety-backg-img4 > img {
+    width: 7.4vw;
+  }
+  .variety-backg-img5 {
+    right: 5.45vw;
+    bottom: 22.7vw;
+    /* display: none; */
+  }
+  .variety-backg-img5 > img {
+    width: 7.1vw;
+  }
+  .variety-back-img1 {
+    display: none;
+  }
+  .variety-back-img2 {
+    display: none;
+  }
+  /* .variety-content-img {
+    display: none;
+  } */
+}

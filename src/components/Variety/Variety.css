@@ -1,0 +1,162 @@
+.variety-main {
+  position: relative;
+  margin-top: 300px;
+}
+
+.variety {
+  display: flex;
+  flex-direction: column;
+  max-width: 1420px;
+  width: 100%;
+  position: relative;
+}
+
+.variety-content {
+  z-index: 5;
+}
+
+.variety-title-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.variety-title1 {
+  font-size: 17px;
+  color: var(--block_clr);
+}
+
+.variety-title2 {
+  margin-top: 5px;
+  font-size: 45px;
+}
+
+.variety-content-block {
+  margin-top: 70px;
+}
+
+.variety-content-block-item {
+  display: inline-block;
+  width: calc(100% / 6 - 20px);
+  margin: 10px;
+}
+
+.variety-btn-block {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.variety-show-btn {
+  width: fit-content;
+  font-size: 25px;
+  background-color: var(--block_clr);
+  padding: 15px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.variety-show-btn:hover {
+  background-color: var(--hover_clr);
+  color: var(--menu_list_clr);
+}
+
+.variety-backg-img1 {
+  position: absolute;
+  bottom: 940px;
+  left: calc((100vw - 1720px) / 2 - 50px);
+  /* left: 200px; */
+  z-index: 4;
+  animation: floating 4s infinite;
+}
+
+.variety-backg-img2 {
+  position: absolute;
+  bottom: 690px;
+  left: calc((100vw - 1720px) / 2 - 120px);
+  /* left: 130px; */
+  z-index: 4;
+  animation: floating 4s infinite;
+}
+
+.variety-backg-img3 {
+  position: absolute;
+  bottom: 1020px;
+  right: calc((100vw - 1720px) / 2 + 80px);
+  /* right: 300px; */
+  z-index: 4;
+  animation: floating 4s infinite;
+}
+
+.variety-backg-img4 {
+  position: absolute;
+  bottom: 810px;
+  right: calc((100vw - 1720px) / 2 - 130px);
+  /* right: 120px; */
+  z-index: 4;
+  animation: floating 4s infinite;
+}
+
+.variety-backg-img5 {
+  position: absolute;
+  bottom: 500px;
+  right: calc((100vw - 1720px) / 2 - 130px);
+  /* right: 120px; */
+  z-index: 4;
+  animation: floating 4s infinite;
+}
+
+.variety-content-img {
+  position: relative;
+}
+
+.variety-back-img1 {
+  position: absolute;
+  bottom: 0;
+  left: -150px;
+}
+
+.variety-back-img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.variety-back-img1-1 {
+  position: absolute;
+  bottom: 500px;
+  left: -200px;
+  z-index: 1;
+}
+
+.variety-back-img1-2 {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.variety-back-img2-1 {
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0);
+  }
+  30% {
+    transform: translate(10px, 20px);
+  }
+  60% {
+    transform: translate(-10px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

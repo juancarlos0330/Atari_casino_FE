@@ -1,0 +1,73 @@
+@media screen and (max-width: 1000px) {
+  .contact-content {
+    width: 100%;
+    margin: 2.3vw 0px;
+  }
+  .contact-content-name {
+    margin-right: 0.9vw;
+  }
+  .contact-content-email {
+    margin-left: 0.9vw;
+  }
+
+  .contact-content-item {
+    font-size: 15px;
+    padding: 0.9vw 0px;
+    margin: 0.9vw 0px;
+  }
+
+  .contact-content-item:empty:not(:focus):before {
+    font-size: 0.7vw;
+  }
+
+  .contact-content-submit {
+    padding-bottom: 6.82vw;
+  }
+
+  .contact-content-subbtn {
+    font-size: 0.64vw;
+    padding: 1.14vw 1.82vw;
+    border: 0.1vw solid var(--white);
+  }
+
+  .contact-content-subbtn > i {
+    font-size: 0.65vw;
+    margin-left: 2.3vw;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .contact {
+    margin-top: 4.55vw;
+  }
+  .contact-title {
+    font-size: 2vw;
+  }
+
+  .contact-news-block {
+    width: 50vw;
+    padding: 0.55vw 0px;
+  }
+  .contact-news-subbtn {
+    font-size: 0.64vw;
+    padding: 1.14vw 1.82vw;
+    border: 0.1vw solid rgb(3, 3, 3);
+    margin-right: 0.7vw;
+  }
+  .contact-news-subbtn > i {
+    font-size: 0.65vw;
+    margin-left: 2.3vw;
+  }
+
+  .contact-news-title {
+    font-size: 1.5vw;
+    margin: 0 2.73vw;
+  }
+  .contact-news-email {
+    font-size: 0.7vw;
+  }
+
+  .contact-news-email:empty:not(:focus):before {
+    font-size: 0.7vw;
+  }
+}

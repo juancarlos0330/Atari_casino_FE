@@ -1,0 +1,34 @@
+@media screen and (max-width: 2000px) {
+  .footer {
+    margin-top: 6.82vw;
+  }
+  .footer-list-sec {
+    margin: 0px 2.3vw;
+  }
+  .footer-list-sec-title {
+    margin-bottom: 0.7vw;
+  }
+  .footer-list-sec p {
+    font-size: 0.7vw;
+  }
+  .footer-link {
+    margin-top: 4.55vw;
+    width: 36.4vw;
+  }
+  .footer-link-item {
+    margin: 0px 0.46vw;
+    font-size: 0.73vw;
+  }
+  .footer-link-intro {
+    margin: 4.55vw 0px 13.64vw 0px;
+  }
+  .footer-link-intro-item {
+    font-size: 0.7vw;
+  }
+  .footer-list-sec-icons > i {
+    font-size: 1.5vw;
+    width: 2.72vw;
+    height: 2.72vw;
+    border: 0.05vw solid var(--white);
+  }
+}

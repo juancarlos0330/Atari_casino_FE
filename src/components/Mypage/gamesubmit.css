@@ -1,0 +1,237 @@
+.gamesubmit {
+  max-width: 1420px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.docudialog {
+  background-color: transparent;
+  height: auto;
+}
+
+.docudialog .MuiPaper-root::-webkit-scrollbar {
+  width: 5px;
+}
+
+.docudialog .MuiPaper-root::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.docudialog .MuiPaper-root::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: var(--menu_list_clr);
+}
+
+.docudialog .MuiPaper-root {
+  background-color: var(--menu_backclr);
+  height: 650px;
+}
+
+.gamesubmit-title-block {
+  margin: 0 10%;
+  background-color: var(--block_clr);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 15px 0px;
+  font-size: 30px;
+  display: flex;
+  z-index: 5;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 30px 1px var(--white);
+}
+
+.gamesubmit-title-block:hover i {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.gamesubmit-title-block div {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.gamesubmit-card-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px 10%;
+  padding: 20px 0px;
+  z-index: 5;
+  background-color: var(--win_blk_clr);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 10px 1px var(--block_clr);
+}
+
+.gamesub-upload-block {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.gamesub-content-block {
+  width: 50%;
+}
+
+.gamesub-upload-preview {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.bordererrclr {
+  border: 2px solid var(--block_clr) !important;
+}
+
+.borderblockclr {
+  border: 2px dashed var(--white);
+}
+
+.gamesub-upload-preview > i {
+  margin: 30px 0px;
+  font-size: 150px;
+}
+
+.gamesub-upload-preview > img {
+  width: 100%;
+}
+
+.game-cover-btn-block {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-cover-btn {
+  padding: 10px 30px;
+  background-color: var(--block_clr);
+  font-size: 20px;
+  border: 1px solid var(--block_clr);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-cover-btn:hover {
+  background-color: var(--white);
+  color: var(--block_clr);
+  box-shadow: 0 0 3px 3px var(--block_clr);
+  font-weight: bold;
+}
+
+.game-cover-btn > i {
+  margin-right: 10px;
+}
+
+.game-cover-btn:hover i {
+  color: var(--block_clr);
+}
+
+.gamesub-content-block-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.gamesub-content-block-item > span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gamesub-content-block-input {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 5px;
+  width: 70%;
+  box-shadow: 0 0 2px 3px var(--menu_list_clr);
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.gamesub-content-block-input:hover {
+  border: 2px solid var(--block_clr);
+  box-shadow: 0 0 3px 3px var(--block_clr);
+}
+
+.gamesub-content-block-input:focus {
+  border: 2px solid var(--block_clr);
+  box-shadow: 0 0 2px 3px var(--hover_clr);
+}
+
+.gamesub-content-submit-btn {
+  width: fit-content;
+  background-color: var(--block_clr);
+  padding: 15px 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid var(--block_clr);
+}
+
+.gamesub-content-submit-btn img {
+  height: 20px;
+}
+
+.gamesub-content-submit-btn:hover {
+  background-color: var(--white);
+  color: var(--block_clr);
+  font-weight: bold;
+  border-color: var(--block_clr);
+}
+
+.gamesub-content-block-item-one {
+  font-size: 20px !important;
+}
+
+.gamesub-content-block-item-sec {
+  color: #999;
+  font-size: 22px !important;
+  margin-bottom: 30px !important;
+}
+
+.docu-main {
+  padding: 20px 40px;
+}
+
+.docu-title {
+  text-align: center;
+  font-size: 25px;
+  color: var(--block_clr);
+}
+
+.docu-main img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.docu-main span {
+  color: var(--block_clr);
+}
+
+.docu-subtitle {
+  font-size: 18px;
+  color: var(--block_clr);
+}
+
+.docu-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}

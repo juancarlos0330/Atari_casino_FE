@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  font-family: "Comic Sans MS";
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+
+:root {
+  scroll-behavior: smooth;
+  --white: #fff;
+  --black: #000;
+  --red: red;
+  --backclr: rgb(5, 5, 5);
+  --menu_backclr: rgb(18, 18, 18);
+  --menu_list_clr: rgb(101, 101, 101);
+  --block_clr: rgb(209, 55, 55);
+  --hover_clr: rgb(168, 48, 48);
+  --win_blk_clr: rgb(22, 22, 22);
+  --win_blk_sec_clr: rgb(163, 154, 120);
+  --contact_back_clr: rgb(25, 25, 25);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--menu_backclr);
+  scroll-behavior: smooth;
+}
+
+.clear {
+  clear: both;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.m_lr_auto {
+  margin: 0 auto;
+}
+
+.m_ud_auto {
+  margin: auto 0;
+}

@@ -1,0 +1,35 @@
+.atari {
+  display: flex;
+  flex-direction: row;
+  max-width: 1420px;
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
+}
+
+.atari_sec1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.atari_sec2 {
+  width: 40%;
+}
+
+.atari_sec1_1 {
+  font-size: 44px;
+}
+
+.atari_sec1_2 {
+  font-size: 44px;
+  color: var(--block_clr);
+}
+
+.atari_sec1_3 {
+  width: 75%;
+  margin-top: 50px;
+  font-size: 20px;
+  color: var(--menu_list_clr);
+}

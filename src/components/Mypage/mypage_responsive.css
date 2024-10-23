@@ -1,0 +1,112 @@
+@media screen and (max-width: 2000px) {
+  .mypage {
+    margin-top: 2.3vw;
+  }
+
+  .myinfo {
+    width: 90%;
+    margin: auto;
+  }
+
+  .myaccount-info {
+    margin-top: 2.3vw;
+  }
+
+  .card-block {
+    width: calc(100% / 3 - 1vw);
+    margin: 0px 0.5vw;
+    margin-bottom: 2.3vw;
+  }
+
+  .card-block:hover {
+    box-shadow: 0 0 1vw 5px var(--hover_clr);
+  }
+
+  .myinfo-title {
+    padding: 0.7vw 0px;
+    font-size: 1.2vw;
+  }
+
+  .myinfo-content {
+    padding: 1.82vw 2.73vw;
+  }
+
+  .myinfo-content-item {
+    margin: 0.7vw 0px;
+  }
+
+  .myinfo-content-item span {
+    font-size: 0.9vw;
+  }
+
+  .myinfo-content-btn {
+    padding: 0.46vw;
+    font-size: 0.9vw;
+  }
+
+  .myinfo-content-btn > img {
+    height: 1vw;
+  }
+
+  .deposit-input-block > span {
+    font-size: 0.55vw;
+    height: 1.82vw;
+    padding: 0px 0.23vw;
+  }
+
+  .deposit-amount-input {
+    width: 6.82vw;
+    height: 1.82vw;
+    font-size: 0.7vw;
+    margin-right: 0.23vw;
+  }
+
+  .mygame {
+    margin-top: 1.4vw;
+  }
+
+  .mygame-title {
+    font-size: 2.1vw;
+    margin: 1.4vw 0px 0.46vw 0px;
+    font-weight: bold;
+  }
+
+  .mygame-list {
+    margin-top: 2.3vw;
+  }
+
+  .mygame-list-item {
+    width: calc(100% / 4 - 1vw);
+    margin: 0.5vw;
+  }
+
+  .mygame-list-item-title {
+    font-size: 2vw;
+  }
+
+  .mygame-list-item-btn {
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+  }
+
+  .mygame-list-item-btn > i {
+    font-size: 1vw;
+  }
+
+  .mygame-list-item-btn:hover i {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .header-carsoul-block-item {
+    height: 18vw;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .mygame-list-item {
+    height: 16vw;
+  }
+}

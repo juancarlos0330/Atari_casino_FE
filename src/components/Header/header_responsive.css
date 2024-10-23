@@ -1,0 +1,146 @@
+@media screen and (max-width: 1720px) {
+  .header-carsoul-block {
+    width: calc(100vw - 300px);
+  }
+}
+
+@media screen and (max-width: 1960px) {
+  .main-back-right-imgs {
+    right: 0px;
+    width: 60%;
+  }
+  .main-back-right-imgs > img {
+    width: 100%;
+  }
+  .main-back-right-img-slot {
+    right: 0px;
+    width: 65%;
+  }
+  .main-back-right-img-slot > img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .header-intro {
+    padding-left: 3vw;
+  }
+  .header-iframe-block {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .header-iframe-load {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .header-user-sign span {
+    font-size: 0.8vw;
+    padding-right: 2.2vw;
+    margin: 3.8vw 0px;
+  }
+
+  .header-intro {
+    padding-left: 3vw;
+  }
+
+  .header-intro-title1 {
+    font-size: 3.2vw;
+  }
+
+  .header-intro-title2 {
+    font-size: 3.2vw;
+  }
+
+  .header-intro-title3 {
+    margin-top: 1.6vw;
+    font-size: 0.9vw;
+  }
+
+  .header-game-block {
+    margin-top: 3.2vw;
+  }
+
+  .header-game-block-item {
+    font-size: 0.8vw;
+  }
+
+  .header-game-block-item > img {
+    margin-right: 1vw;
+  }
+
+  .header-game-block-stick {
+    height: 4.1vw;
+    width: 0.1vw;
+    margin: 0px 1.14vw;
+  }
+
+  .header-sign-block {
+    margin-top: 2.27vw;
+  }
+
+  .header-sign-btn {
+    font-size: 0.86vw;
+    padding: 0.7vw 2vw;
+  }
+
+  .header-iframe-block {
+    max-width: 1420px;
+    height: 90vh;
+    z-index: 5;
+  }
+
+  .header-iframe-info-block {
+    height: 8vh;
+  }
+
+  .header-carsoul-block {
+    width: 100%;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-carsoul-block-item {
+    margin: 0px 1.5vw;
+  }
+
+  .header-carsoul-game-type {
+    font-size: 0.6vw;
+  }
+
+  .header-carsoul-game-title {
+    font-size: 1.8vw;
+  }
+
+  .owl-theme > .owl-nav {
+    margin-right: 0.9vw;
+    margin-bottom: 0.9vw;
+  }
+
+  .owl-theme > .owl-nav > .owl-prev {
+    width: 2.72vw;
+    height: 2.72vw;
+  }
+
+  .owl-theme > .owl-nav > .owl-next {
+    width: 2.72vw;
+    height: 2.72vw;
+  }
+  .owl-theme > .owl-dots {
+    margin-top: 1.36vw;
+  }
+
+  .owl-theme > .owl-dots > .owl-dot {
+    width: 3.2vw;
+    height: 0.17vw;
+    margin-right: 1vw;
+  }
+
+  .no-game-item {
+    margin-top: 6vw;
+  }
+}

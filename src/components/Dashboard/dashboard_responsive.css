@@ -1,0 +1,37 @@
+@media screen and (min-width: 1720px) {
+  .dashboard-block-item {
+    position: relative;
+    margin: 0px 10px;
+    height: 335px;
+  }
+}
+
+@media screen and (max-width: 1720px) {
+  .dashboard-block-item {
+    position: relative;
+    margin: 0px 10px;
+    height: calc(((100vw - 300px) / 4) - 20px);
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .dashboard {
+    margin-top: 9.1vw;
+  }
+  .dashboard-title {
+    font-size: 2vw;
+  }
+  .dashboard-content {
+    margin-top: 3.7vw;
+  }
+  .dashboard-block-item-sec1 {
+    color: black;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 0.01vw;
+    -webkit-text-stroke-color: white;
+    font-size: 2vw;
+  }
+  .dashboard-block-item-sec2 {
+    font-size: 0.64vw;
+  }
+}
